@@ -4,7 +4,7 @@ This repo contains code to create shell commands from songs using the /dev/speak
 
 # How to import a song from `arduino-songs`:
 
-1. Visit (arduino-songs)[https://github.com/robsoncouto/arduino-songs]
+1. Visit [arduino-songs](https://github.com/robsoncouto/arduino-songs)
 2. Pick a song of your choice and open its `.ino` file
 3. Scroll down to the melody definition (prefixed by `int melody[] = {`)
 4. Select the whole melody definition and copy it into a new file in `/songs` in this repo
