@@ -1,7 +1,12 @@
 {
   "name": "buzzer-songs",
+  "type": "module",
+  "scripts": {
+    "start": "tsx main.ts",
+    "convert": "tsx convert.ts"
+  },
   "dependencies": {
-    "@types/copy-paste": "^1.1.33",
-    "copy-paste": "^1.5.3"
+    "@types/node": "^22.13.4",
+    "tsx": "^4.19.3"
   }
 }
